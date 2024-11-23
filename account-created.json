@@ -1,0 +1,83 @@
+{
+    "Arn": "arn:aws:labs:us-east-1:406241078629:lab/1b263c3c-1440-4232-bd66-d43ce269138f::mWSQVtSJ7DE1b7dJQn4QNe",
+    "LabId": "1b263c3c-1440-4232-bd66-d43ce269138f::mWSQVtSJ7DE1b7dJQn4QNe",
+    "PoolId": "1b263c3c-1440-4232-bd66-d43ce269138f",
+    "CreatedOn": 1732144481,
+    "ExpiresOn": 1732155281,
+    "BlueprintLocation": "arn:aws:learningcontent:us-east-1:143265421934:blueprintversion/4ea2ccd6-7c29-47e1-bfa5-824ddcc11e92:35",
+    "Status": "READY",
+    "LabRegions": [
+        "us-east-1"
+    ],
+    "EstimatedReadyTime": 1732145181,
+    "LabCost": {
+        "CostType": "Tentative",
+        "CostValue": 0
+    },
+    "BudgetConfiguration": {
+        "Cost": {
+            "Thresholds": [
+                {
+                    "Action": "CancelLab",
+                    "ThresholdId": "4Gp1o6qVm3c7KyaMDSvU5b",
+                    "ThresholdValue": 200,
+                    "ThresholdType": "Static"
+                },
+                {
+                    "Action": "None",
+                    "ThresholdId": "jfx2NPYNPSGHHcSQtYEMda",
+                    "ThresholdValue": 10,
+                    "ThresholdType": "Static"
+                }
+            ]
+        }
+    },
+    "Secrets": [
+        {
+            "SecretName": "AppServer1InstanceId",
+            "SecretValue": "i-0666a806d17156801"
+        },
+        {
+            "SecretName": "AppServer2InstanceId",
+            "SecretValue": "i-04cad9254617f83f5"
+        },
+        {
+            "SecretName": "DatabaseClusterIdentifier",
+            "SecretValue": "database-cluster-3a5a5920"
+        },
+        {
+            "SecretName": "DatabaseSG",
+            "SecretValue": "sg-01f9a3ae64f5de03e"
+        },
+        {
+            "SecretName": "DynamoDBTableName",
+            "SecretValue": "CityMaintenanceRecords"
+        },
+        {
+            "SecretName": "IAMGroupName",
+            "SecretValue": "dynamodb-read-only-group"
+        },
+        {
+            "SecretName": "LoadBalancerDNSName",
+            "SecretValue": "ApplicationLoadBalancer-603515471.us-east-1.elb.amazonaws.com"
+        },
+        {
+            "SecretName": "StaticWebsiteBucketName",
+            "SecretValue": "website-bucket-3a5a5920"
+        },
+        {
+            "SecretName": "TargetGroupName",
+            "SecretValue": "alb-target-group-3a5a5920"
+        },
+        {
+            "SecretName": "UserName",
+            "SecretValue": "dynamodb-user"
+        },
+        {
+            "SecretName": "validationLambdaFunctionName",
+            "SecretValue": "validation-function-3a5a5920"
+        }
+    ],
+    "CurrentTime": 1732145159,
+    "PuLabId": "4ea2ccd6-7c29-47e1-bfa5-824ddcc11e92"
+}
