@@ -1,0 +1,37 @@
+{
+    "Arn": "arn:aws:labs:us-east-1:406241078629:lab/1b263c3c-1440-4232-bd66-d43ce269138f::mWSQVtSJ7DE1b7dJQn4QNe",
+    "LabId": "1b263c3c-1440-4232-bd66-d43ce269138f::mWSQVtSJ7DE1b7dJQn4QNe",
+    "PoolId": "1b263c3c-1440-4232-bd66-d43ce269138f",
+    "CreatedOn": 1732144481,
+    "ExpiresOn": 1732155281,
+    "BlueprintLocation": "arn:aws:learningcontent:us-east-1:143265421934:blueprintversion/4ea2ccd6-7c29-47e1-bfa5-824ddcc11e92:35",
+    "Status": "PROVISIONING",
+    "LabRegions": [
+        "us-east-1"
+    ],
+    "EstimatedReadyTime": 1732145181,
+    "LabCost": {
+        "CostType": "Tentative",
+        "CostValue": 0
+    },
+    "BudgetConfiguration": {
+        "Cost": {
+            "Thresholds": [
+                {
+                    "Action": "CancelLab",
+                    "ThresholdId": "4Gp1o6qVm3c7KyaMDSvU5b",
+                    "ThresholdValue": 200,
+                    "ThresholdType": "Static"
+                },
+                {
+                    "Action": "None",
+                    "ThresholdId": "jfx2NPYNPSGHHcSQtYEMda",
+                    "ThresholdValue": 10,
+                    "ThresholdType": "Static"
+                }
+            ]
+        }
+    },
+    "CurrentTime": 1732145103,
+    "PuLabId": "4ea2ccd6-7c29-47e1-bfa5-824ddcc11e92"
+}
